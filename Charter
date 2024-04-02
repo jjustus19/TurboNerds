@@ -4,8 +4,9 @@ Cord: https://discord.gg/XBbtmb94
 1)    Availability for meeting expectations
         Meeting time should be once a week on Thursday's at 5:30pm. This meeting will occur on Discord and will be 10-15 minutes long.
 2)    Response time to communication expectations
-        Responses sohuld be given within 24 hours.
+        Responses should be given within 24 hours.
 3)    Definition of done: when is a task complete? (hint: "I'm done with that but I didn't check it in to github" is not done.)
+        A task is completed when passing all relavent tests, and is reviewed and merged into main.
 4)    Scrum meeting format/frequency and distribution of documentation tasks (meeting minutes, updating task board)
 5)    Procedure for adopting policies (e.g. code style, code check-in steps, documentation updates) 
         a) if you adopt such a policy during the initial meeting, put it here
