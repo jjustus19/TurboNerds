@@ -2,15 +2,16 @@ TurboNerds
 Cord: https://discord.gg/XBbtmb94
 
 1)    Availability for meeting expectations
-        Meeting time should be once a week on Thursday's at 5:30pm. This meeting will occur on Discord and will be 10-15 minutes long.
+        Meeting time should be once a week on Thursday's at 5:30pm. This meeting will occur on Discord.
 2)    Response time to communication expectations
         Responses should be given within 24 hours.
 3)    Definition of done: when is a task complete? (hint: "I'm done with that but I didn't check it in to github" is not done.)
         A task is completed when passing all relavent tests, and is reviewed and merged into main.
 4)    Scrum meeting format/frequency and distribution of documentation tasks (meeting minutes, updating task board)
-        Meetings over discord once a week for around 15 minutes, where we will discuss who will take up what tasks, and update those on the task board.
+        Meetings over discord once a week for around 30 minutes, where we will discuss who will take up what tasks, and update those on the task board. 
+        If someone needs to miss a meeting due to other obligations they must inform team members through discord minimum 2 hours in advance.
 5)    Procedure for adopting policies (e.g. code style, code check-in steps, documentation updates) 
-        a) if you adopt such a policy during the initial meeting, put it here
+        a) Code will be discussed during weekly meetings. If someone requires additional review they can request a team member look over their work through discord.
 
 6)    Procedure for handling a member who is not meeting expectations
         a) must include at least 3 actions before involving the instructor
@@ -29,3 +30,4 @@ Cord: https://discord.gg/XBbtmb94
                         If team member is unable to contribute on a regular basis, reach out to TA / instructor.
     
 7) Signatures: each member must sign their name by typing their name at the bottom of the document.
+Jennifer Justus
