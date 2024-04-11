@@ -7,8 +7,7 @@ from SchedulingApp.models import User
 class AdminTestCase(TestCase):
 
     def setUp(self):
-        User.objects.create(name='Dean', email='<Dean@uwm.edu>', password='<Dean123>', phone_number='0123456789',
-                            role='admin')
+        User.objects.create(name='Dean', email='<Dean@uwm.edu>', password='<Dean123>', phone_number='0123456789')
 
     def test_admin_creation(self):
         # Assert properties of admin user
@@ -19,15 +18,12 @@ class AdminTestCase(TestCase):
                                                           dean.password))
         self.assertEqual(dean.phone_number, '0123456789', msg=('Admin phone number incorrect: Expected:'
                                                                '0123456789 Was: ', dean.phone_number))
-        self.assertEqual(dean.role, 'admin', msg=('Admin role incorrect: admin Was: ',
-                                                  dean.role))
 
 
 class InstructorTestCase(TestCase):
 
     def setUp(self):
-        User.objects.create(name='Rock', email='rock@uwm.edu', password='<RockRules>', phone_number='4148675309',
-                            role='instructor')
+        User.objects.create(name='Rock', email='<rock@uwm.edu>', password='<RockRules>', phone_number='4148675309')
 
     def test_instructor_creation(self):
         # Assert properties of instructor user using get request
@@ -38,15 +34,12 @@ class InstructorTestCase(TestCase):
                                                             rock.password))
         self.assertEqual(rock.phone_number, '4148675309', msg=('Instructor phone number incorrect: Expected: '
                                                                '4148675309 Was: ', rock.phone_number))
-        self.assertEqual(rock.role, 'instructor', msg=('Instructor role incorrect: Expected: instructor Was: '
-                                                       , rock.role))
 
 
 class TATestCase(TestCase):
 
     def setUp(self):
-        User.objects.create(name='Tarun', email='tarun@uwm.edu', password='<TArun456>', phone_number='0987654321',
-                            role='TA')
+        User.objects.create(name='Tarun', email='<tarun@uwm.edu>', password='<TArun456>', phone_number='0987654321')
 
     def test_TA_creation(self):
         # Assert properties of TA user using get request
@@ -57,4 +50,3 @@ class TATestCase(TestCase):
                                                             tarun.password))
         self.assertEqual(tarun.phone_number, '0987654321', msg=('TA phone number incorrect: Expected: 0987654321 Was: ',
                                                                 tarun.phone_number))
-        self.assertEqual(tarun.role, 'TA', msg=('TA role incorrect: Expected: TA Was: ', tarun.role))
